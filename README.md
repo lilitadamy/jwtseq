@@ -12,6 +12,7 @@ form *application.properties* change:
 
 port: 8080
 
+
 ### registration
 Method : POST  
 Mapping : "/register"  
@@ -35,6 +36,7 @@ Response Body :
 }
 ```
 
+
 ### login
 Method : POST  
 Mapping : "/authenticate"  
@@ -53,6 +55,7 @@ Response Body :
 }
 ```
 
+
 ### update current users password 
 Method : PUT  
 Mapping : "/users/update-password"  
@@ -67,6 +70,7 @@ firstName1 you have updated your password!
 ```
 
 
+
 ### get users firstName & lastName by username
 Method : GET  
 Mapping : "/users/{username}"  
@@ -75,6 +79,7 @@ Response Body :
 ```
 firstName1 lastName1
 ```
+
 
 
 ### delete current user
