@@ -10,6 +10,8 @@ form *application.properties* change:
   spring.datasource.url=  
 ```
 
+port: 8080
+
 ### registration
 Method : POST  
 Mapping : "/register"  
